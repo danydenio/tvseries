@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tvSeries/Models/Serie.swift"
+            timestampString = "534795428.085121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Serie"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.Serie.year.getter : Swift.String"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Models/Serie.swift"
+                  timestampString = "534807900.206057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "837">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.Serie.year.setter : Swift.String"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Models/Serie.swift"
+                  timestampString = "534807900.209828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tvSeries/Services/SerieNetworkManagerService.swift"
+            timestampString = "534905991.041664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "initializeSerieInformation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.SerieNetworkManagerService.initSerie() -&gt; ()"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Services/SerieNetworkManagerService.swift"
+                  timestampString = "534537077.736796"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tvSeries.NetworkManagerService.Result&lt;Foundation.Data&gt;) -&gt; () in tvSeries.SerieNetworkManagerService.initSerie() -&gt; ()"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Services/SerieNetworkManagerService.swift"
+                  timestampString = "534537077.739635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tvSeries/Services/EpisodeDataPersistanceManager.swift"
+            timestampString = "534904642.136038"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SerieDataManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.SerieDataManager.episodeDataManager.getter : tvSeries.EpisodeDataManager"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Services/EpisodeDataPersistanceManager.swift"
+                  timestampString = "534807900.402087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.SerieDataManager.episodeDataManager.setter : tvSeries.EpisodeDataManager"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Services/EpisodeDataPersistanceManager.swift"
+                  timestampString = "534807900.404872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tvSeries.SerieDataManager.init(imdbID: Swift.String) -&gt; tvSeries.SerieDataManager"
+                  moduleName = "tvSeries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobileconsulting/Documents/Swift/Training%20/Apps/HW/Dic/tvSeries/tvSeries/Services/EpisodeDataPersistanceManager.swift"
+                  timestampString = "534807900.407642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

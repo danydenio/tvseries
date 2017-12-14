@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EpisodeEntity" representedClassName="EpisodeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="episode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbRating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="released" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="runtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seasonNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="season" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SeasonEntity" inverseName="episodes" inverseEntity="SeasonEntity" syncable="YES"/>
+    </entity>
+    <entity name="SeasonEntity" representedClassName="SeasonEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="imdbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="season" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serieID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EpisodeEntity" inverseName="season" inverseEntity="EpisodeEntity" syncable="YES"/>
+        <relationship name="serie" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SerieEntity" inverseName="seasons" inverseEntity="SerieEntity" syncable="YES"/>
+    </entity>
+    <entity name="SerieEntity" representedClassName="SerieEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="genre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbRating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbVotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="released" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="runtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalSeasons" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="seasons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SeasonEntity" inverseName="serie" inverseEntity="SeasonEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EpisodeEntity" positionX="-137" positionY="135" width="128" height="210"/>
+        <element name="SeasonEntity" positionX="-135" positionY="-45" width="128" height="118"/>
+        <element name="SerieEntity" positionX="-380" positionY="-99" width="128" height="238"/>
+    </elements>
+</model>
